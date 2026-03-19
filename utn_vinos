@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Página-1" id="H4F2Bo8jQbuTivWjsLpu">
+    <mxGraphModel dx="1479" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-4" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="380" as="sourcePoint" />
+            <mxPoint x="520" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-8" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERzeroToOne;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VINO&lt;div&gt;#vino_id&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;&lt;div&gt;precio&lt;/div&gt;&lt;div&gt;ano_elaboracion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="400" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BODEGA&lt;div&gt;#bodega_id&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="546" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CATEGORIA&lt;div&gt;#categoria_id&lt;/div&gt;&lt;div&gt;codigo&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="746" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-9" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="V_C_LINKING&lt;div&gt;#vino_id&lt;/div&gt;&lt;div&gt;#categoria_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="576" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-20" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CLIENTE&lt;div&gt;#cliente_id&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;razon_social&lt;/div&gt;&lt;div&gt;telefono&lt;/div&gt;&lt;div&gt;numero_tarjeta&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="120" x="57.5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-14" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-29" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" target="b1ALaGneIpq68zQ3SZGc-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PROVEEDOR&lt;div&gt;proveedor_id&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;&lt;div&gt;provedor_categoria_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PROVEEDOR_CATEGORIA&lt;div&gt;#provedor_categoria_id&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-17" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERzeroToMany;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-18" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b1ALaGneIpq68zQ3SZGc-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.96000000000004" y="452.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PEDIDO&lt;div&gt;#pedido_id&lt;/div&gt;&lt;div&gt;fecha_compra&lt;/div&gt;&lt;div&gt;cantidad_vino&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="155" x="40" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-28" edge="1" parent="1" source="b1ALaGneIpq68zQ3SZGc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" target="b1ALaGneIpq68zQ3SZGc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1ALaGneIpq68zQ3SZGc-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="P_V_LINKING&lt;div&gt;#proveedor_id&lt;/div&gt;&lt;div&gt;#vino_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
